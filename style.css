@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: auto;
+    margin: 0;
+    background-color: #0EC0F0;
+}
+
+.cuerpo {
+    width: 80%;
+    max-width: 600px;
+    background: #0EF0D7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #333333;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin: 10px 0;
+    padding: 0.5rem 0 0.5rem;
+    border-radius: 0.4rem;
+    border: 2px solid #ffffff;
+    font-size: 1rem;
+    resize: 50%;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#botonCopiar {
+    background-color: #28a745;
+    margin-top: 10px;
+}
+
+#botonCopiar:hover {
+    background-color: #218838;
+}
